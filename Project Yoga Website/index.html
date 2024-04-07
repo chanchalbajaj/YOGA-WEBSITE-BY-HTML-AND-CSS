@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chanchal Yoga Classes</title>
+  </head>
+  <link rel="stylesheet" href="style.csss" />
+  <style>
+    /* CSS Repeat */
+    body {
+      padding: 0px;
+      margin: 0px;
+      background: url("img3.png");
+      height: 700px;
+      color: black;
+    }
+    .left {
+      position: absolute;
+      top: 3px;
+      left: 0px;
+      display: inline-block;
+      /* border: 2px solid red; */
+    }
+    .left img {
+      width: 200px;
+    }
+    .left div {
+      text-align: center;
+      font-size: 25px;
+    }
+    .mid {
+      display: block;
+      width: 33%;
+      margin: 10px auto;
+      /* border: 2px solid blueviolet; */
+    }
+    .right {
+      display: inline-block;
+      position: absolute;
+      top: 20px;
+      right: 34px;
+      border: 2px solid greenyellow;
+    }
+    .navbar {
+      display: inline-block;
+    }
+    .navbar li {
+      color: white;
+      display: inline-block;
+      font-size: 17px;
+      font-family: "Baloo Bhai,cursive";
+    }
+    .navbar li a {
+      text-decoration: none;
+      padding: 34px 23px;
+    }
+    .navbar li a:hover,
+    .navbar li a:active {
+      text-decoration: underline;
+      color: black;
+    }
+    .btn {
+      padding: 3px 4px;
+      margin: 0px 9px;
+      border: 2px solid grey;
+      border-radius: 10px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      color: black;
+    }
+    .container {
+      border: 2px solid black;
+      margin: 148px 179px;
+      padding: 49px 64px;
+      width: 41%;
+      display: block;
+      border-radius: 20px;
+    }
+    .container h1 {
+      text-align: center;
+    }
+    .form input {
+      text-align: center;
+      display: block;
+      width: 284px;
+      padding: 5px;
+      border: 2px solid black;
+      margin: 3px auto;
+      font-size: 18px;
+      border-radius: 18px;
+    }
+    .container button {
+      display: block;
+      width: 60px;
+      margin: auto;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <!-- left box for logo -->
+      <div class="left">
+        <img src="img7.jpg" alt="" />
+        <div>Chanchal Yoga</div>
+      </div>
+      <!-- mid box for navbar -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Fitness Calculator</a></li>
+        </ul>
+      </div>
+      <!-- right box for buton -->
+      <div class="right">
+        <button class="btn">Call us now</button
+        ><button class="btn">Email</button>
+      </div>
+      <div class="container">
+        <h1>Join Best Yoga Classes In Jaipur</h1>
+        <form action="">
+          <div class="form">
+            <input type="text" name="" id="" placeholder="Enter Your Name " />
+          </div>
+          <div class="form">
+            <input type="text" name="" id="" placeholder="Enter Your Age " />
+          </div>
+          <div class="form">
+            <input type="text" name="" id="" placeholder="Enter Your Sex " />
+          </div>
+          <div class="form">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Enter Your Address "
+            />
+          </div>
+          <button class="btn">Submit</button>
+        </form>
+      </div>
+    </header>
+  </body>
+</html>
